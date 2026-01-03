@@ -4,6 +4,9 @@
     }
 </script>
 <main>
+    <h1 class="title">
+        an attempt to prepare for the worst
+    </h1>
     <div class="parent">
         teamspeak
         <button class="myButton" on:click={(e)=>{
@@ -19,6 +22,11 @@
 </main>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    .title {
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        color: #0089ff;
+    }
     .myButton1 {
         background-color:transparent;
         border-radius: 10em;
