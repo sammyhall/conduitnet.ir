@@ -3,7 +3,10 @@
         window.location.href=("https://zl.conduitnet.ir/")
     }
     function myFunction1() {
-        window.location.href=("https://zl.conduitnet.ir/")
+        window.location.href=("https://m.conduitnet.ir/")
+    }
+    function myFunction2() {
+        window.location.href=("https://matrix.to/#/#irani-faggers--war-eddition:m.conduitnet.ir")
     }
 </script>
 <main>
@@ -24,6 +27,9 @@
         <br>
         matrix
         <button class="myButton2" on:click={myFunction1}>redirect</button>
+        <br>
+        matrix group
+        <button class="myButton3" on:click={myFunction2}>redirect</button>
     </div>
 </main>
 <style>
@@ -32,6 +38,25 @@
         font-family: 'Bebas Neue', cursive;
         text-align: center;
         color: #0089ff;
+    }
+    .myButton3 {
+        background-color:transparent;
+        border-radius: 10em;
+        border: .1em solid #4e6096;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-size: .7em;
+        padding: .5em 1.3em;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #283966;
+    }
+    .myButton3:hover {
+        background-color:transparent;
+    }
+    .myButton3:active {
+        position:relative;
+        top:1px;
     }
     .myButton2 {
         background-color:transparent;
